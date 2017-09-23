@@ -1,3 +1,25 @@
+Download GitHub [Syntaxhighlighter 4.0.1](https://github.com/syntaxhighlighter/syntaxhighlighter)
+
+* Install [NodeJS](https://nodejs.org/en/)
+
+* Go to directory of unzipped syntaxhighlighter at Terminal. (That supports NodeJS e.g. GitHub Terminal)
+
+* At Terminal 
+  1. npm install
+  2. npm install gulp
+  3. gulp setup-project
+  4. gulp build --brushes=all --theme=default
+
+* Should be in dist folder (The created files).
+
+**Ignore warnings.  As long as no errors.**
+
+Use syntaxhighlighter.js & theme.css (Nothing else).
+
+May require [async in script load](https://codepen.io/robott1982/pen/pwBgeR) on syntaxhighlighter.js file for GitHub.
+
+
+
 # SyntaxHighlighter v4
 
 [![GratiPay](https://img.shields.io/gratipay/user/alexgorbatchev.svg)](https://gratipay.com/alexgorbatchev/)
